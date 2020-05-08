@@ -2,13 +2,13 @@
 /* General */
 
 body {
-  font-family: arial;
+  font-family: inherit;
   word-break: break-word;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: arial;
+  font-family: inherit;
   line-height: 1.375;
   word-break: break-word;
 }
@@ -43,13 +43,19 @@ a {
   padding-bottom: 1rem;
 }
 
-#mainNav .navbar-brand img {
-  max-width: 130px;
-}
-
 #mainNav .navbar-nav {
   margin-top: 1rem;
   letter-spacing: 0.0625rem;
+}
+
+.navbar-brand img {
+  max-width: 155px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navbar-shrink img {
+  max-width: 120px;
 }
 
 @media (min-width: 992px) {
@@ -88,18 +94,14 @@ header.masthead {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
-  line-height: 2.5rem;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
 }
 
 @media (min-width: 992px) {
   header.masthead {
     padding-top: 13rem;
     padding-bottom: 8rem;
-  }
-  header.masthead h1 {
-    font-size: 2.5em;
-    line-height: 2.75rem;
   }
 }
 
