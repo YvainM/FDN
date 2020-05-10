@@ -114,12 +114,12 @@ header.masthead p {
 /* Teaser */
 
 .bulle-gauche {
-  background-color: #34a853;
+  background-color: white;
   border-radius: 50px;
 }
 
 .bulle-droite {
-  background-color: #ea4335;
+  background-color: white;
   border-radius: 50px;
 }
 
@@ -128,7 +128,7 @@ header.masthead p {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #34a853;
+  border-top: 20px solid white;
   margin-left: 53%;
   margin-bottom: 3rem;
 }
@@ -138,7 +138,7 @@ header.masthead p {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #ea4335;
+  border-top: 20px solid white;
   margin-left: 35%;
 }
 
@@ -252,11 +252,6 @@ input[type=checkbox] {
 .btn-primary {
   background-color: #4285f4;
   border-color: #4285f4;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #ea4335;
-  border-color: #ea4335;
 }
 
 .rounded {
