@@ -116,11 +116,13 @@ header.masthead p {
 .bulle-gauche {
   background-color: white;
   border-radius: 50px;
+  font-weight: normal;
 }
 
 .bulle-droite {
   background-color: white;
   border-radius: 50px;
+  font-weight: normal;
 }
 
 .arrow-down-gauche {
