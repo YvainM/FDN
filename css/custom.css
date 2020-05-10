@@ -255,8 +255,8 @@ input[type=checkbox] {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: ##ea4335;
-  border-color: ##ea4335;
+  background-color: #ea4335;
+  border-color: #ea4335;
 }
 
 .rounded {
