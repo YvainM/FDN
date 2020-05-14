@@ -124,6 +124,11 @@ header.masthead p {
   border-radius: 50px;
 }
 
+small {
+  font-style: normal;
+  font-size: 0.7rem;
+}
+
 .arrow-down-gauche {
   width: 0;
   height: 0;
