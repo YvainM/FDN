@@ -1,7 +1,6 @@
 /* General */
 
 body {
-  /* font-family: inherit; */
   word-break: break-word;
 }
 
@@ -124,11 +123,6 @@ header.masthead p {
   border-radius: 50px;
 }
 
-small {
-  font-style: normal;
-  font-size: 0.7rem;
-}
-
 .arrow-down-gauche {
   width: 0;
   height: 0;
@@ -160,38 +154,28 @@ small {
 }
 
 
-/* Photos */
+/* Deroulé */
+
+.deroule {
+  background: linear-gradient(179.61deg, rgba(251,188,5,0) 0%, rgba(251,188,5,0.15) 100%);
+}
 
 @media (min-width: 992px) {
-  .etapes {
+  .deroule--etapes {
     min-height: 192px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .etapes {
+  .deroule--etapes {
     min-height: 120px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .etapes {
+  .deroule--etapes {
     min-height: 168px;
   }
-}
-
-@media (max-width: 575px) {
-  .photos {
-    width: 100%;
-  }
-}
-
-.photos-atelier {
-  background-color: #fbbc059e;
-}
-
-.photos-atelier .container {
-  margin-top: -11rem;
 }
 
 
@@ -200,6 +184,7 @@ small {
 .temoignages {
   background: linear-gradient(180deg, rgba(66, 133, 244, 0.15) 0%, rgba(66, 133, 244, 0) 100%);
 }
+
 
 /* Form */
 
