@@ -115,11 +115,8 @@ header.masthead p {
 
 /* Teaser */
 
-.bulle-gauche {
+.bulle-gauche, .bulle-droite {
   border-radius: 50px;
-}
-
-.bulle-droite {
   border-radius: 50px;
 }
 
