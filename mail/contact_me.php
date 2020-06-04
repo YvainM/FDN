@@ -11,8 +11,8 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 
 // Create the email and send the message
 $to = "yvain.mouneu@gmail.com,aderagne@gmail.com";
-$subject = "Message site FDN de :  $name";
-$body = "Nouveau message reçu depuis le site de la Fresque du Numérique.\n\n"."Voici les détails :\n\nNom : $name\n\nEmail : $email\n\nMessage :\n$message";
+$subject = "La Fresque du Numérique - message de $name";
+$body = "Nouveau message reçu depuis le site web de la Fresque du Numérique, de la part de $name - $email\n\n$message";
 $header = "From: contact@fresquedunumerique.org\n";
 $header .= "Reply-To: $email";
 
