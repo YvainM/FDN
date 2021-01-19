@@ -10,7 +10,7 @@ $email = strip_tags(htmlspecialchars($_POST['email']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
 // Create the email and send the message
-$to = "yvain.mouneu@gmail.com,aderagne@gmail.com";
+$to = "contact@fresquedunumerique.org";
 $subject = "La Fresque du Numérique - message de $name";
 $body = "Nouveau message reçu depuis le site web de la Fresque du Numérique, de la part de $name - $email\n\n$message";
 $header = "From: contact@fresquedunumerique.org\n";
