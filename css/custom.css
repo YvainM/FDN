@@ -179,17 +179,6 @@ header.masthead p {
   }
 }
 
-
-/* Participer */
-
-.vignette-session {
-  min-height: 300px;
-}
-
-.vignette-session--last {
-  border-style: dashed!important;
-}
-
 /* Temoignages */
 
 .temoignages {
