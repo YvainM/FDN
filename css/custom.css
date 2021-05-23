@@ -26,7 +26,7 @@ section {
 }
 
 a {
-  color: #4285f4;
+  color: #5190F5;
 }
 
 .scroll-to-top {
@@ -41,6 +41,18 @@ a {
   height: 3.5rem;
   background-color: rgba(33, 37, 41, 0.5);
   line-height: 3.5rem;
+}
+
+.jaune-degrade {
+  background: linear-gradient(180deg, rgba(251,188,5,0) 0%, rgba(251,188,5,0.15) 100%);
+}
+
+.bleu-degrade {
+  background: linear-gradient(180deg, rgba(66, 133, 244, 0.15) 0%, rgba(66, 133, 244, 0) 100%);
+}
+
+.vert-degrade {
+  background: linear-gradient(180deg,#ffffff47 0,#28a7452e 100%);
 }
 
 
@@ -83,7 +95,7 @@ a {
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
   #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
     color: #fff;
-    background: #4285f4;
+    background: #5190F5;
   }
 
   #mainNav.navbar-shrink {
@@ -157,10 +169,6 @@ header.masthead p {
 
 /* Deroulé */
 
-.jaune-degrade {
-  background: linear-gradient(180deg, rgba(251,188,5,0) 0%, rgba(251,188,5,0.15) 100%);
-}
-
 @media (min-width: 992px) {
   .deroule--etapes {
     min-height: 130px;
@@ -179,23 +187,6 @@ header.masthead p {
   }
 }
 
-/* Temoignages */
-
-.bleu-degrade {
-  background: linear-gradient(180deg, rgba(66, 133, 244, 0.15) 0%, rgba(66, 133, 244, 0) 100%);
-}
-
-/* Licence */
-
-.vert-degrade {
-  background: linear-gradient(180deg,#ffffff47 0,#28a7452e 100%);
-}
-
-/* FAQ */
-
-.faq {
-  background: linear-gradient(180deg, rgba(251,188,5,0) 0%, #ffc10730 100%);
-}
 
 /* Form */
 
@@ -236,7 +227,7 @@ header.masthead p {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #4285f4;
+  color: #5190F5;
 }
 
 .form-control {
@@ -261,7 +252,7 @@ input[type=checkbox] {
 /* bootstrap custom */
 
 .bg-primary {
-  background-color: #4285f4 !important;
+  background-color: #5190F5 !important;
 }
 
 .bg-secondary {
@@ -269,12 +260,12 @@ input[type=checkbox] {
 }
 
 .text-primary {
-  color: #4285f4 !important;
+  color: #5190F5 !important;
 }
 
 .btn-primary {
-  background-color: #4285f4;
-  border-color: #4285f4;
+  background-color: #5190F5;
+  border-color: #5190F5;
 }
 
 .rounded {
