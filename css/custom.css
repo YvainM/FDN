@@ -52,7 +52,7 @@ a {
 }
 
 .vert-degrade {
-  background: linear-gradient(180deg,#ffffff47 0,#28a7452e 100%);
+  background: linear-gradient(180deg,#28a7452e 0,#ffffff47 100%);
 }
 
 
@@ -248,6 +248,18 @@ input[type=checkbox] {
   }
 }
 
+/* Ateliers Ecoles */
+
+.ateliers-ecoles-etapes {
+  border: 2px solid #27981f;
+}
+
+@media (min-width: 768px) {
+  .ateliers-ecoles-etapes {
+    min-height: 190px;
+  }
+}
+
 
 /* bootstrap custom */
 
@@ -256,7 +268,7 @@ input[type=checkbox] {
 }
 
 .bg-secondary {
-  background-color: #f5f3f3 !important;
+  background-color: #27981f !important;
 }
 
 .text-primary {
@@ -266,6 +278,16 @@ input[type=checkbox] {
 .btn-primary {
   background-color: #5190F5;
   border-color: #5190F5;
+}
+
+.btn-secondary {
+  background-color: #27981f;
+  border-color: #27981f;
+}
+
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+  background-color: #097b01 !important;
+  border-color: #097b01 !important;
 }
 
 .rounded {
