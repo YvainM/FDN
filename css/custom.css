@@ -260,6 +260,24 @@ input[type=checkbox] {
   }
 }
 
+/* Parcours */
+
+.section-parcours-red {
+  border-left: 3px solid #e83221;
+}
+
+.section-parcours-green {
+  border-left: 3px solid #27981f;
+}
+
+.section-parcours-orange {
+  border-left: 3px solid #ffbc00;
+}
+
+.section-parcours-blue {
+  border-left: 3px solid #5190F5;
+}
+
 
 /* bootstrap custom */
 
@@ -273,6 +291,18 @@ input[type=checkbox] {
 
 .text-primary {
   color: #5190F5 !important;
+}
+
+.text-red {
+  color: #e83221 !important;
+}
+
+.text-green {
+  color: #27981f !important;
+}
+
+.text-orange {
+  color: #ffbc00 !important;
 }
 
 .btn-primary {
