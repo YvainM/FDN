@@ -260,6 +260,18 @@ input[type=checkbox] {
   }
 }
 
+/* entreprises */
+
+.entreprises-box-offre {
+  border: 2px solid #5190f5;
+}
+
+@media (min-width: 768px) {
+  .entreprises-box-offre {
+    min-height: 190px;
+  }
+}
+
 /* Parcours */
 
 .section-parcours-red {
