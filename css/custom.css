@@ -332,6 +332,18 @@ input[type=checkbox] {
   border-color: #097b01 !important;
 }
 
+.btn-white {
+  color: #5190F5;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-white:hover, .btn-white:active, .btn-white:focus {
+  background-color: #2f538d !important;
+  color: #ffffff !important;
+}
+
 .rounded {
   border-radius: .5rem !important;
 }
