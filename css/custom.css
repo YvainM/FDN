@@ -263,7 +263,7 @@ input[type=checkbox] {
 /* entreprises */
 
 .entreprises-box-offre {
-  border: 2px solid #5190f5;
+  border: 2px solid #e83221;
 }
 
 @media (min-width: 768px) {
@@ -299,6 +299,10 @@ input[type=checkbox] {
 
 .bg-secondary {
   background-color: #27981f !important;
+}
+
+.bg-red {
+  background-color: #ab2417 !important;
 }
 
 .text-primary {
@@ -341,6 +345,18 @@ input[type=checkbox] {
 
 .btn-white:hover, .btn-white:active, .btn-white:focus {
   background-color: #2f538d !important;
+  color: #ffffff !important;
+}
+
+.btn-red {
+  background-color: #e83221;
+  border-color: #e83221;
+  color: white;
+}
+
+.btn-red:hover, .btn-white:active, .btn-white:focus {
+  background-color: #ab2417 !important;
+  border-color: #ab2417 !important;
   color: #ffffff !important;
 }
 
