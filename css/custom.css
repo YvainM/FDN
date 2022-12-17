@@ -294,6 +294,19 @@ input[type=checkbox] {
   border-left: 3px solid #5190F5;
 }
 
+/* Contact */
+
+.border-citoyen {
+  border: 1px solid #5190f5;
+}
+
+.border-enseignement {
+  border: 1px solid #27981f;
+}
+
+.border-pro {
+  border: 1px solid #e83221;
+}
 
 /* bootstrap custom */
 
@@ -362,6 +375,10 @@ input[type=checkbox] {
   background-color: #ab2417 !important;
   border-color: #ab2417 !important;
   color: #ffffff !important;
+}
+
+.border-bottom-primary {
+  border-bottom: 1px solid #5190F5;
 }
 
 .rounded {

@@ -22,38 +22,73 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-white font-weight-bold fixed-top border-bottom" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top"><img class="w-100" src="img/logo-FDN.png" alt="Logo Fresque du Numérique"></a>
-        <button class="navbar-toggler navbar-toggler-right bg-primary text-white rounded p-3" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.html"><img class="w-100" src="img/logo-FDN.png" alt="Logo Fresque du Numérique"></a>
+        <button class="navbar-toggler navbar-toggler-right bg-primary text-white rounded p-3" type="button"
+          data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars pl-2"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="citoyens.html">Citoyens</a>
+              <a class="nav-link py-3 px-0 px-lg-3" href="citoyens.html">Citoyens</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="enseignement.html">Enseignement</a>
+              <a class="nav-link py-3 px-0 px-lg-3" href="enseignement.html">Enseignement</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="entreprises.html">Entreprises</a>
+              <a class="nav-link py-3 px-0 px-lg-3" href="entreprises.html">Entreprises</a>
             </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" target="_blank" href="https://digitalcollage.org/">EN</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html#contact">Contact</a>
+            <li class="nav-item dropdown mx-0 mx-lg-1">
+              <a class="nav-link dropdown-toggle nav-link py-3 px-0 px-lg-3" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Quoi d'autre ?
+              </a>
+              <div class="dropdown-menu ml-2" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item font-weight-bold text-primary py-3 px-0 px-lg-3" href="qui-sommes-nous.html">L’association, qui sommes-nous :)</a>
+                <a class="dropdown-item font-weight-bold text-primary py-3 px-0 px-lg-3" href="parcours.html">Parcours Fresqueur·euse</a>
+                <a class="dropdown-item font-weight-bold text-primary py-3 px-0 px-lg-3" href="contact.html">FAQ et contact</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item font-weight-bold text-primary py-3 px-0 px-lg-3" target="_blank" href="https://digitalcollage.org/">Website in English</a>
+              </div>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <section>
+    <section class="pb-4">
       <div class="container pt-5">
-        <h1 class="text-center mt-5 mb-4 pt-4">Foire aux questions</h1>
-        <p class="pt-3">Nous adorons échanger et discuter, mais nous manquons de temps !<br>
-          Nous vous avons préparé ici les réponses aux questions les plus courantes, on vous remercie de consulter ces réponses avant de nous écrire :)</p>
+        <h1 class="text-center py-4 mt-5 mb-4">Vous souhaitez nous contacter pour organiser un atelier ?</h1>
+        <div class="row">
+          <div class="col-md col-sm-12">
+            <div class="border-citoyen p-3 mb-3">
+              <p class="h4 text-center text-primary font-weight-bold mb-3">Dans un cadre associatif</p>
+              <p class="text-center">Si vous souhaitez organiser un atelier en milieu associatif, animé par un·des bénévole·s, voici notre <a target="_blank" rel="noreferrer" href="https://forms.gle/8JvKp12UuFKepKYq9">formulaire de demande d'animation bénévole citoyenne</a> (nos ateliers publics ouverts sont eux visibles sur sur notre <a href="citoyens.html">page Citoyens</a>).</p>
+            </div>
+          </div>
+          <div class="col-md col-sm-12">
+            <div class="border-enseignement p-3 mb-3">
+              <h3 class="h4 text-center text-green font-weight-bold mb-3">Dans un cadre scolaire</h3>
+              <p class="text-center">Si vous souhaitez organiser un déploiement de l’atelier dans votre établissement secondaire ou supérieur, RDV sur notre <a class="text-green" target="_blank" rel="noreferrer" href="https://forms.gle/FoA9kkYnt9fdFEsKA">formulaire de demande Déploiement Enseignement</a>, ou sur notre <a class="text-green" href="enseignement.html">page Enseignement</a> pour plus d’informations.</p>
+            </div>
+          </div>
+          <div class="col-md col-sm-12">
+            <div class="border-pro p-3 mb-3">
+              <p class="h4 text-center text-red font-weight-bold mb-3">Dans un cadre pro</p>
+              <p class="text-center">Si vous souhaitez une intervention professionnelle en prestation dans votre entreprise ou organisation publique, RDV sur notre <a class="text-red" target="_blank" rel="noreferrer" href="https://forms.gle/3jfD7XoNzyZEYNdX7">formulaire de demande d'animation pro</a>, ou sur notre <a class="text-red" href="entreprises.html">page Entreprises</a> pour plus d’informations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="text-center h1 font-weight-bold mb-4 pb-3">Vous avez une autre question pour nous ?</h2>
+        <p class="pt-2 mb-0"><span class="font-weight-bold">Voici notre foire aux questions !</span></p>
+        <p class="pt-1 mb-0">Nous adorons échanger et discuter, mais nous manquons de temps :)<br>
+          Sur cette page, nous avons répondu aux questions les plus courantes, nous vous invitons à consulter ces réponses avant de nous écrire :)</p>
 
 
         <h2 class="border-top mb-3 mt-5 pt-5">L’atelier</h2>
@@ -68,9 +103,10 @@
           Cela peut être difficile à caser dans un agenda mais les participant·e·s ne voient pas le temps passer !</p>
 
         <h3 class="text-primary pt-2">Est-il possible de faire un atelier en moins de temps ?</h3>
-        <p>Pas vraiment.<br>
-          Bien que nous ne le recommandions pas, il est possible d’enlever quelques cartes et transmettre moins d’infos pour réduire la durée de quelques dizaines de minutes.
-          Par contre si vous souhaitez un format vraiment plus court, moins de 2h30, la pédagogie n’est pas adaptée à ce timing, et nous vous recommandons plutôt de suivre ou d'organiser un autre type d'atelier ou un temps de type conférence par exemple.</p>
+        <p>Non, la pédagogie collaborative et la densité du contenu ne sont pas adaptés à un timing plus réduit.</p>
+
+        <h3 class="text-primary pt-2">Combien de participant·e·s peut-il y avoir dans un atelier ?</h3>
+        <p>16 participant·e·s maximum par animateur·rice, répartis en deux sous-groupes, afin de garantir un engagement maximal lors de l’atelier et que chacun puisse s’approprier les cartes et les connaissances. Il peut toutefois y avoir plusieurs animateur·rice·s en parallèle, et donc avec le nombre d'animateur·rice·s adéquat, il est tout à fait possible d'avoir plusieurs dizaines, voire plusieurs centaines de participant·e·s qui réalisent l’atelier en parallèle !</p>
 
         <h3 class="text-primary pt-2">À partir de quel âge est-il possible de participer à un atelier ?</h3>
         <p>À partir de 15 ans environ pour la version standard.<br>
@@ -86,7 +122,7 @@
         <h2 class="border-top border-top mb-3 mt-5 pt-5">Participer à un atelier citoyen</h2>
 
         <h3 class="text-primary pt-2">Je n’arrive pas à m’inscrire, que se passe-t-il ?</h3>
-        <p>Si vous n’arrivez pas à vous inscrire, c’est probablement que la session est complète. Sur billetweb, la plateforme d'inscription que nous utilisons principalement, lorsque toutes les places sont prises il est écrit "complet" en bas à droite de l'encadré de réservation.<br>
+        <p>Si vous n’arrivez pas à vous inscrire, c’est probablement que la session est complète. Sur billetweb, la plateforme d'inscription que nous utilisons principalement pour les ateliers citoyens, lorsque toutes les places sont prises il est écrit "complet" en bas à droite de l'encadré de réservation.<br>
           Nous vous conseillons de revenir dans quelques jours sur le site pour trouver une session qui vous convienne, nous ajoutons de nouvelles sessions d'ateliers citoyens régulièrement en présentiel et en distanciel.
           Nous n'aurons pas plus d'informations sur les prochaines dates par message, et vous remercions donc de ne pas nous écrire à ce sujet.</p>
 
@@ -114,7 +150,7 @@
         <h2 class="border-top mb-3 mt-5 pt-5">Organiser une session dédiée</h2>
 
         <h3 class="text-primary pt-2">Je souhaite organiser une Fresque du Numérique dans mon association ou lors d’un événement grand public, comment procéder ?</h3>
-        <p><a target="_blank" rel="noreferrer" href="index.html#contact">Contactez-nous !</a> Nous sommes des centaines d'animateur·rice·s de la Fresque du Numérique actif·ve·s. Nous vous aiderons à identifier une équipe d'animateur·ice·s bénévoles.
+        <p><a target="_blank" rel="noreferrer" href="https://forms.gle/8JvKp12UuFKepKYq9">Contactez-nous via ce formulaire !</a> Nous sommes des centaines d'animateur·rice·s de la Fresque du Numérique actif·ve·s. Nous vous aiderons à identifier une équipe d'animateur·ice·s bénévoles.
           Alternativement, vous pouvez aussi participer à un atelier puis être formé·e à l’animation pour animer une Fresque du Numérique vous-même :)</p>
 
         <h3 class="text-primary pt-2">Je souhaite organiser une Fresque du Numérique pour mes étudiant·e·s / élèves, comment procéder ?</h3>
@@ -160,38 +196,118 @@
           Au-delà du numérique, nous souhaitons contribuer à une prise de conscience globale des enjeux environnementaux, et ainsi accélérer la transition vers une société plus soutenable.</p>
 
         <h3 class="text-primary pt-2">Ce projet est génial ! Puis-je vous aider ?</h3>
-        <p class="mb-5">Merci ! Et oui, avec plaisir !<br>
+        <p class="mb-3">Merci ! Et oui, avec plaisir !<br>
           Une fois formé·e à l'animation vous pouvez rejoindre le slack des anims, notre outils de communication et organisation interne entre animateur·rice·s, pour contribuer au projet ! Nous avons beaucoup de besoins d’animations bénévoles pour des cadres citoyens et associatifs, ainsi que pour l’enseignement supérieur et secondaire.</p>
 
       </div>
     </section>
 
+    <!-- Contact Section -->
+    <section class="container border-top" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h2 class="mb-4 text-center">Demande d'intervention</h2>
+            <p class="px-lg-2 pt-2 mb-2"><span class="font-weight-bold">• Pour une demande concernant l’enseignement</span>, RDV sur notre <a href="enseignement.html">page Enseignement</a> pour plus d’informations. Si vous souhaitez organiser un déploiement de l’atelier dans votre établissement, RDV sur notre <a target="_blank" rel="noreferrer" href="https://forms.gle/FoA9kkYnt9fdFEsKA">formulaire de demande Déploiement Enseignement</a>.</p>
+            <p class="px-lg-2 pt-2 mb-2"><span class="font-weight-bold">• Pour une demande d'intervention bénévole</span> visant à réaliser un atelier en cadre associatif, RDV sur notre <a target="_blank" rel="noreferrer" href="https://forms.gle/8JvKp12UuFKepKYq9">formulaire de demande d'animation bénévole citoyenne</a>.</p>
+            <p class="px-lg-2 pt-2 mb-2"><span class="font-weight-bold">• Pour une demande pro</span>, RDV sur notre <a href="entreprises.html">page Entreprises</a> pour plus d’informations. Si vous souhaitez une intervention professionnelle en prestation dans votre entreprise ou organisation publique, RDV sur notre <a target="_blank" rel="noreferrer" href="https://forms.gle/3jfD7XoNzyZEYNdX7">formulaire de demande d'animation pro</a>.</p>
+            <img class="img-fluid py-5 px-5 d-block mx-auto" src="img/contact.png" alt="">
+          </div>
+          <div class="col-12 col-md-6">
+            <h2 class="text-center mb-4">Autre demande</h2>
+            <p class="px-lg-4 text-red mb-2">Avant de nous écrire directement, on vous remercie de vérifier que votre réponse n’est pas dans cette FAQ ou sur le site, et que ce n’est pas une demande d’intervention associative, enseignement ou pro (auquel cas vous pouvez utiliser le formulaire dédié).
+            Les dates d’ateliers citoyens sont toutes affichées <a class="text-red font-weight-bold" target="_blank" href="citoyens.html">sur cette page</a>, nous n'aurons pas plus d'informations par message.</p>
+            <form class="px-4" name="sentMessage" id="contactForm" novalidate="novalidate">
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0">
+                  <label for="name">Votre prénom et nom</label>
+                  <input class="form-control" id="name" type="text" placeholder="Votre prénom et nom" required="required"
+                    data-validation-required-message="Merci d'écrire votre nom.">
+                  <p class="help-block text-danger mb-0 pt-2"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0">
+                  <label for="email">Email</label>
+                  <input class="form-control" id="email" type="email" placeholder="Email" required="required"
+                    data-validation-required-message="Merci d'écrire votre email.">
+                  <p class="help-block text-danger mb-0 pt-2"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="7" placeholder="Message" required="required"
+                    data-validation-required-message="Merci d'écrire votre message"></textarea>
+                  <p class="help-block text-danger mb-0 pt-2"></p>
+                </div>
+              </div>
+              <div class="control-group d-none">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label for="telephone">Telephone</label>
+                  <input class="form-control" type="text" id="telephone" autocomplete="off">
+                  <p class="help-block text-danger mb-0 pt-2"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="mb-0">
+                  <input class="form-control d-inline mr-1" id="check" type="checkbox" required="required"
+                    data-validation-required-message="Merci d'accepter notre politique de confidentialité.">
+                  <label for="check" class="d-inline small">En soumettant ce formulaire, j’autorise que les informations
+                    saisies soient utilisées pour permettre de me recontacter et j’accepte la <a
+                      target="_blank" href="politique-de-confidentialite.html">politique de confidentialité</a>.</label>
+                  <p class="help-block text-danger mb-0 pt-2"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg px-5" id="sendMessageButton">Envoyer</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- Footer -->
     <footer>
-      <div class="bg-primary py-3">
+      <div class="bg-primary pt-3 pb-4">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-3">
-              <div class="d-flex justify-content-around pt-3 pt-lg-0">
-                <div class="col-auto pr-1 pt-2 pb-1"><a href="https://www.linkedin.com/company/37215060/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin fa-2x text-white"></i></a></div>
-                <div class="col-auto pr-1 pt-2 pb-1"><a href="https://www.facebook.com/LaFresqueDuNumerique/" target="_blank" rel="noreferrer"><i class="fab fa-facebook fa-2x text-white"></i></a></div>
-                <div class="col-auto pr-1 py-2"><a href="https://www.instagram.com/fresquedunumerique/" target="_blank" rel="noreferrer"><i class="fab fa-instagram fa-2x text-white"></i></a></div>
-                <div class="col-auto pr-1 py-2"><a href="https://twitter.com/FresqueDuNum" target="_blank" rel="noreferrer"><i class="fab fa-twitter fa-2x text-white"></i></a></div>
+          <div class="row align-items-top">
+            <div class="col-lg-2">
+              <p class="text-white font-weight-bold pt-4 mb-0">Suivez-nous</p>
+              <div class="dropdown-divider mt-1 mb-2 mb-lg-3"></div>
+              <div>
+                <div class="pr-1 pt-2 pb-1"><a href="https://www.linkedin.com/company/37215060/" target="_blank" rel="noreferrer" class="text-white"><i class="fab fa-linkedin fa-lg text-white pr-1"></i>Linkedin</a></div>
+                <div class="pr-1 pt-2 pb-1"><a href="https://www.instagram.com/fresquedunumerique/" target="_blank" rel="noreferrer" class="text-white"><i class="fab fa-instagram fa-lg text-white pr-1"></i>Instagram</a></div>
+                <div class="pr-1 pt-2 pb-3"><a href="https://www.facebook.com/LaFresqueDuNumerique/" target="_blank" rel="noreferrer" class="text-white"><i class="fab fa-facebook fa-lg text-white pr-1"></i>Facebook</a></div>
               </div>
             </div>
             <div class="col-lg-4">
-              <p class="text-white d-block text-left pt-4 pt-lg-2 m-0 font-italic">Approfondir vos connaissances sur l'empreinte environnementale du numérique :</p>
-              <a class="text-white d-block text-left pb-2" href="https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html" target="_blank" rel="noreferrer">MOOC de l'INRIA sur les impacts du numérique</a>
-            </div>
-            <div class="col-lg-2">
-              <a class="text-white d-block text-right pt-lg-2 pt-3" href="FAQ.html">FAQ</a>
-              <a class="text-white d-block text-right pt-2" href="parcours.html">Le parcours</a>
-              <a class="text-white d-block text-right py-lg-2 pt-2 pb-0" href="recrutement.html">Recrutement</a>
+              <p class="text-white font-weight-bold pt-4 mb-0">En apprendre plus</p>
+              <div class="dropdown-divider mt-1 mb-2 mb-lg-3"></div>
+              <p class="text-white d-block text-left pt-2 m-0 font-italic">Approfondir vos connaissances sur l'empreinte environnementale du numérique :</p>
+              <a class="text-white d-block text-left pb-3" href="https://learninglab.gitlabpages.inria.fr/mooc-impacts-num/mooc-impacts-num-ressources/index.html" target="_blank" rel="noreferrer">MOOC de l'INRIA sur les impacts du numérique</a>
             </div>
             <div class="col-lg-3">
-              <a class="text-white d-block text-right pt-2" href="https://www.helloasso.com/associations/la-fresque-du-numerique/formulaires/1" target="_blank" rel="noreferrer">Faire un don</a>
-              <a class="text-white d-block text-right pt-2" href="mentions-legales.html">Mentions légales</a>
-              <a class="text-white d-block text-right py-2" href="politique-de-confidentialite.html">Politique de confidentialité</a>
+              <p class="text-white font-weight-bold pt-4 mb-0">L'association</p>
+              <div class="dropdown-divider mt-1 mb-2 mb-lg-3"></div>
+              <a class="text-white d-block pt-2" href="qui-sommes-nous.html">Qui sommes-nous :)</a>
+              <a class="text-white d-block pt-2" href="parcours.html">Parcours Fresqueur·euse</a>
+              <a class="text-white d-block pt-2" href="contact.html">FAQ et contact</a>
+              <a class="text-white d-block pt-2" href="https://www.helloasso.com/associations/la-fresque-du-numerique/formulaires/1" target="_blank" rel="noreferrer">Faire un don à l'asso</a>
+              <a class="text-white d-block pt-2 pb-3" target="_blank" href="https://digitalcollage.org/">Website in english</a>
+            </div>
+            <div class="col-lg-3">
+              <p class="text-white font-weight-bold pt-4 mb-0">Vers l’infini et au-delà !</p>
+              <div class="dropdown-divider mt-1 mb-2 mb-lg-3"></div>
+              <a class="text-white d-block pt-2" href="https://drive.google.com/file/d/1BQ8ef23qyL-aqZ5TKel9C7TkC_bK7Afk/view?usp=sharing" target="_blank" rel="noreferrer">Statuts de l’asso</a>
+              <a class="text-white d-block pt-2" href="sources.html">Sources de l'atelier</a>
+              <a class="text-white d-block pt-2" href="recrutement.html">Recrutement</a>
+              <a class="text-white d-block pt-2" href="mentions-legales.html">Mentions légales</a>
+              <a class="text-white d-block pt-2 pb-3" href="politique-de-confidentialite.html">Politique de confidentialité</a>
             </div>
           </div>
         </div>
