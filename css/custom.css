@@ -251,7 +251,7 @@ input[type=checkbox] {
 /* Ateliers Ecoles */
 
 .ateliers-ecoles-etapes {
-  border: 2px solid #27981f;
+  border: 1px solid #27981f;
 }
 
 @media (min-width: 768px) {
@@ -383,4 +383,8 @@ input[type=checkbox] {
 
 .rounded {
   border-radius: .5rem !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: transparent !important;
 }
